@@ -41,6 +41,7 @@
             this.Q4_Options = new System.Windows.Forms.CheckedListBox();
             this.Q4Desc_Label = new System.Windows.Forms.Label();
             this.Q4_Label = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -73,6 +74,7 @@
             // 
             // Q1_Options
             // 
+            this.Q1_Options.CheckOnClick = true;
             this.Q1_Options.FormattingEnabled = true;
             this.Q1_Options.Items.AddRange(new object[] {
             "Option 1",
@@ -86,6 +88,7 @@
             // 
             // Q2_Options
             // 
+            this.Q2_Options.CheckOnClick = true;
             this.Q2_Options.FormattingEnabled = true;
             this.Q2_Options.Items.AddRange(new object[] {
             "Option 1",
@@ -117,6 +120,7 @@
             // 
             // Q3_Options
             // 
+            this.Q3_Options.CheckOnClick = true;
             this.Q3_Options.FormattingEnabled = true;
             this.Q3_Options.Items.AddRange(new object[] {
             "Option 1",
@@ -148,6 +152,7 @@
             // 
             // Q4_Options
             // 
+            this.Q4_Options.CheckOnClick = true;
             this.Q4_Options.FormattingEnabled = true;
             this.Q4_Options.Items.AddRange(new object[] {
             "Option 1",
@@ -177,11 +182,20 @@
             this.Q4_Label.TabIndex = 10;
             this.Q4_Label.Text = "Question 4";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(33, 457);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(199, 20);
+            this.textBox1.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 517);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Q4_Options);
             this.Controls.Add(this.Q4Desc_Label);
             this.Controls.Add(this.Q4_Label);
@@ -217,6 +231,7 @@
         private System.Windows.Forms.CheckedListBox Q4_Options;
         private System.Windows.Forms.Label Q4Desc_Label;
         private System.Windows.Forms.Label Q4_Label;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
