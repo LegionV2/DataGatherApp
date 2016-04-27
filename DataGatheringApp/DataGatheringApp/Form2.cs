@@ -10,17 +10,22 @@ using System.Windows.Forms;
 
 namespace DataGatheringApp
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void Next_Page_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
-            FormProvider.SliderPage.Show();
-            FormProvider.StartPage.Hide();
+
+        }
+
+        private void Back_Button_Click(object sender, EventArgs e)
+        {
+            FormProvider.StartPage.Show();
+            FormProvider.SliderPage.Hide();
         }
     }
 }
