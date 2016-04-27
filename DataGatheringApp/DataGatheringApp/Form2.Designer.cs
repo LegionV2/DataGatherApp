@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.slider_plesure = new System.Windows.Forms.TrackBar();
+            this.slider_arousal = new System.Windows.Forms.TrackBar();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -40,8 +40,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
+            this.button_finish = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.slider_plesure)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.slider_arousal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -68,25 +69,27 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Case 1 Description";
             // 
-            // trackBar1
+            // slider_plesure
             // 
-            this.trackBar1.Location = new System.Drawing.Point(79, 47);
-            this.trackBar1.Maximum = 100;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(437, 45);
-            this.trackBar1.TabIndex = 2;
-            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.trackBar1.Value = 50;
+            this.slider_plesure.Location = new System.Drawing.Point(79, 47);
+            this.slider_plesure.Maximum = 100;
+            this.slider_plesure.Name = "slider_plesure";
+            this.slider_plesure.Size = new System.Drawing.Size(437, 45);
+            this.slider_plesure.TabIndex = 2;
+            this.slider_plesure.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.slider_plesure.Value = 50;
+            this.slider_plesure.ValueChanged += new System.EventHandler(this.slider_plesure_ValueChanged);
             // 
-            // trackBar2
+            // slider_arousal
             // 
-            this.trackBar2.Location = new System.Drawing.Point(79, 137);
-            this.trackBar2.Maximum = 100;
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(437, 45);
-            this.trackBar2.TabIndex = 4;
-            this.trackBar2.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.trackBar2.Value = 50;
+            this.slider_arousal.Location = new System.Drawing.Point(79, 137);
+            this.slider_arousal.Maximum = 100;
+            this.slider_arousal.Name = "slider_arousal";
+            this.slider_arousal.Size = new System.Drawing.Size(437, 45);
+            this.slider_arousal.TabIndex = 4;
+            this.slider_arousal.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.slider_arousal.Value = 50;
+            this.slider_arousal.ValueChanged += new System.EventHandler(this.slider_arousal_ValueChanged);
             // 
             // pictureBox6
             // 
@@ -158,26 +161,37 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Back_Button_Click);
             // 
+            // button_finish
+            // 
+            this.button_finish.Location = new System.Drawing.Point(509, 481);
+            this.button_finish.Name = "button_finish";
+            this.button_finish.Size = new System.Drawing.Size(75, 23);
+            this.button_finish.TabIndex = 11;
+            this.button_finish.Text = "Done";
+            this.button_finish.UseVisualStyleBackColor = true;
+            this.button_finish.Click += new System.EventHandler(this.button_finish_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 516);
+            this.Controls.Add(this.button_finish);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.trackBar2);
+            this.Controls.Add(this.slider_arousal);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.trackBar1);
+            this.Controls.Add(this.slider_plesure);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.slider_plesure)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.slider_arousal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -193,14 +207,15 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.TrackBar slider_plesure;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TrackBar trackBar2;
+        private System.Windows.Forms.TrackBar slider_arousal;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_finish;
     }
 }

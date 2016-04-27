@@ -32,15 +32,15 @@
             this.Q1_Label = new System.Windows.Forms.Label();
             this.Q1Desc_Label = new System.Windows.Forms.Label();
             this.Q1_Options = new System.Windows.Forms.CheckedListBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.Q2_Options = new System.Windows.Forms.CheckedListBox();
+            this.Q2Desc_Label = new System.Windows.Forms.Label();
+            this.Q2_Label = new System.Windows.Forms.Label();
+            this.Q3_Options = new System.Windows.Forms.CheckedListBox();
+            this.Q3Desc_Label = new System.Windows.Forms.Label();
+            this.Q3_Label = new System.Windows.Forms.Label();
+            this.Q4_Options = new System.Windows.Forms.CheckedListBox();
+            this.Q4Desc_Label = new System.Windows.Forms.Label();
+            this.Q4_Label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -82,111 +82,115 @@
             this.Q1_Options.Name = "Q1_Options";
             this.Q1_Options.Size = new System.Drawing.Size(111, 49);
             this.Q1_Options.TabIndex = 3;
+            this.Q1_Options.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Q1_Options_ItemCheck);
             // 
-            // checkedListBox1
+            // Q2_Options
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
+            this.Q2_Options.FormattingEnabled = true;
+            this.Q2_Options.Items.AddRange(new object[] {
             "Option 1",
             "Option 2",
             "Option 3"});
-            this.checkedListBox1.Location = new System.Drawing.Point(33, 158);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(111, 49);
-            this.checkedListBox1.TabIndex = 6;
+            this.Q2_Options.Location = new System.Drawing.Point(33, 158);
+            this.Q2_Options.Name = "Q2_Options";
+            this.Q2_Options.Size = new System.Drawing.Size(111, 49);
+            this.Q2_Options.TabIndex = 6;
+            this.Q2_Options.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Q2_Options_ItemCheck);
             // 
-            // label1
+            // Q2Desc_Label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 141);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Question 1 Description";
+            this.Q2Desc_Label.AutoSize = true;
+            this.Q2Desc_Label.Location = new System.Drawing.Point(30, 141);
+            this.Q2Desc_Label.Name = "Q2Desc_Label";
+            this.Q2Desc_Label.Size = new System.Drawing.Size(114, 13);
+            this.Q2Desc_Label.TabIndex = 5;
+            this.Q2Desc_Label.Text = "Question 2 Description";
             // 
-            // label2
+            // Q2_Label
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 128);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Question 1";
+            this.Q2_Label.AutoSize = true;
+            this.Q2_Label.Location = new System.Drawing.Point(30, 128);
+            this.Q2_Label.Name = "Q2_Label";
+            this.Q2_Label.Size = new System.Drawing.Size(58, 13);
+            this.Q2_Label.TabIndex = 4;
+            this.Q2_Label.Text = "Question 2";
             // 
-            // checkedListBox2
+            // Q3_Options
             // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
+            this.Q3_Options.FormattingEnabled = true;
+            this.Q3_Options.Items.AddRange(new object[] {
             "Option 1",
             "Option 2",
             "Option 3"});
-            this.checkedListBox2.Location = new System.Drawing.Point(33, 250);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(111, 49);
-            this.checkedListBox2.TabIndex = 9;
+            this.Q3_Options.Location = new System.Drawing.Point(33, 250);
+            this.Q3_Options.Name = "Q3_Options";
+            this.Q3_Options.Size = new System.Drawing.Size(111, 49);
+            this.Q3_Options.TabIndex = 9;
+            this.Q3_Options.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Q3_Options_ItemCheck);
             // 
-            // label3
+            // Q3Desc_Label
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 233);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Question 1 Description";
+            this.Q3Desc_Label.AutoSize = true;
+            this.Q3Desc_Label.Location = new System.Drawing.Point(30, 233);
+            this.Q3Desc_Label.Name = "Q3Desc_Label";
+            this.Q3Desc_Label.Size = new System.Drawing.Size(114, 13);
+            this.Q3Desc_Label.TabIndex = 8;
+            this.Q3Desc_Label.Text = "Question 3 Description";
             // 
-            // label4
+            // Q3_Label
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 220);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Question 1";
+            this.Q3_Label.AutoSize = true;
+            this.Q3_Label.Location = new System.Drawing.Point(30, 220);
+            this.Q3_Label.Name = "Q3_Label";
+            this.Q3_Label.Size = new System.Drawing.Size(58, 13);
+            this.Q3_Label.TabIndex = 7;
+            this.Q3_Label.Text = "Question 3";
             // 
-            // checkedListBox3
+            // Q4_Options
             // 
-            this.checkedListBox3.FormattingEnabled = true;
-            this.checkedListBox3.Items.AddRange(new object[] {
+            this.Q4_Options.FormattingEnabled = true;
+            this.Q4_Options.Items.AddRange(new object[] {
             "Option 1",
             "Option 2",
             "Option 3"});
-            this.checkedListBox3.Location = new System.Drawing.Point(33, 351);
-            this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(111, 49);
-            this.checkedListBox3.TabIndex = 12;
+            this.Q4_Options.Location = new System.Drawing.Point(33, 351);
+            this.Q4_Options.Name = "Q4_Options";
+            this.Q4_Options.Size = new System.Drawing.Size(111, 49);
+            this.Q4_Options.TabIndex = 12;
+            this.Q4_Options.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Q4_Options_ItemCheck);
             // 
-            // label5
+            // Q4Desc_Label
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 334);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Question 1 Description";
+            this.Q4Desc_Label.AutoSize = true;
+            this.Q4Desc_Label.Location = new System.Drawing.Point(30, 334);
+            this.Q4Desc_Label.Name = "Q4Desc_Label";
+            this.Q4Desc_Label.Size = new System.Drawing.Size(114, 13);
+            this.Q4Desc_Label.TabIndex = 11;
+            this.Q4Desc_Label.Text = "Question 4 Description";
             // 
-            // label6
+            // Q4_Label
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 321);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Question 1";
+            this.Q4_Label.AutoSize = true;
+            this.Q4_Label.Location = new System.Drawing.Point(30, 321);
+            this.Q4_Label.Name = "Q4_Label";
+            this.Q4_Label.Size = new System.Drawing.Size(58, 13);
+            this.Q4_Label.TabIndex = 10;
+            this.Q4_Label.Text = "Question 4";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 517);
-            this.Controls.Add(this.checkedListBox3);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.checkedListBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Q4_Options);
+            this.Controls.Add(this.Q4Desc_Label);
+            this.Controls.Add(this.Q4_Label);
+            this.Controls.Add(this.Q3_Options);
+            this.Controls.Add(this.Q3Desc_Label);
+            this.Controls.Add(this.Q3_Label);
+            this.Controls.Add(this.Q2_Options);
+            this.Controls.Add(this.Q2Desc_Label);
+            this.Controls.Add(this.Q2_Label);
             this.Controls.Add(this.Q1_Options);
             this.Controls.Add(this.Q1Desc_Label);
             this.Controls.Add(this.Q1_Label);
@@ -204,15 +208,15 @@
         private System.Windows.Forms.Label Q1_Label;
         private System.Windows.Forms.Label Q1Desc_Label;
         private System.Windows.Forms.CheckedListBox Q1_Options;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckedListBox checkedListBox3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckedListBox Q2_Options;
+        private System.Windows.Forms.Label Q2Desc_Label;
+        private System.Windows.Forms.Label Q2_Label;
+        private System.Windows.Forms.CheckedListBox Q3_Options;
+        private System.Windows.Forms.Label Q3Desc_Label;
+        private System.Windows.Forms.Label Q3_Label;
+        private System.Windows.Forms.CheckedListBox Q4_Options;
+        private System.Windows.Forms.Label Q4Desc_Label;
+        private System.Windows.Forms.Label Q4_Label;
     }
 }
 
