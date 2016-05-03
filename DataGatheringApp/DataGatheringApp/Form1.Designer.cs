@@ -68,35 +68,38 @@
             this.Q1Desc_Label.AutoSize = true;
             this.Q1Desc_Label.Location = new System.Drawing.Point(30, 41);
             this.Q1Desc_Label.Name = "Q1Desc_Label";
-            this.Q1Desc_Label.Size = new System.Drawing.Size(114, 13);
+            this.Q1Desc_Label.Size = new System.Drawing.Size(252, 13);
             this.Q1Desc_Label.TabIndex = 2;
-            this.Q1Desc_Label.Text = "Question 1 Description";
+            this.Q1Desc_Label.Text = "Did your companion make any unexpected actions?";
             // 
             // Q1_Options
             // 
             this.Q1_Options.CheckOnClick = true;
+            this.Q1_Options.ColumnWidth = 75;
             this.Q1_Options.FormattingEnabled = true;
             this.Q1_Options.Items.AddRange(new object[] {
-            "Option 1",
-            "Option 2",
-            "Option 3"});
+            "Yes",
+            "No"});
             this.Q1_Options.Location = new System.Drawing.Point(33, 58);
+            this.Q1_Options.MultiColumn = true;
             this.Q1_Options.Name = "Q1_Options";
-            this.Q1_Options.Size = new System.Drawing.Size(111, 49);
+            this.Q1_Options.Size = new System.Drawing.Size(371, 19);
             this.Q1_Options.TabIndex = 3;
             this.Q1_Options.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Q1_Options_ItemCheck);
             // 
             // Q2_Options
             // 
             this.Q2_Options.CheckOnClick = true;
+            this.Q2_Options.ColumnWidth = 75;
             this.Q2_Options.FormattingEnabled = true;
             this.Q2_Options.Items.AddRange(new object[] {
             "Option 1",
             "Option 2",
             "Option 3"});
             this.Q2_Options.Location = new System.Drawing.Point(33, 158);
+            this.Q2_Options.MultiColumn = true;
             this.Q2_Options.Name = "Q2_Options";
-            this.Q2_Options.Size = new System.Drawing.Size(111, 49);
+            this.Q2_Options.Size = new System.Drawing.Size(371, 19);
             this.Q2_Options.TabIndex = 6;
             this.Q2_Options.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Q2_Options_ItemCheck);
             // 
@@ -121,14 +124,16 @@
             // Q3_Options
             // 
             this.Q3_Options.CheckOnClick = true;
+            this.Q3_Options.ColumnWidth = 75;
             this.Q3_Options.FormattingEnabled = true;
             this.Q3_Options.Items.AddRange(new object[] {
             "Option 1",
             "Option 2",
             "Option 3"});
             this.Q3_Options.Location = new System.Drawing.Point(33, 250);
+            this.Q3_Options.MultiColumn = true;
             this.Q3_Options.Name = "Q3_Options";
-            this.Q3_Options.Size = new System.Drawing.Size(111, 49);
+            this.Q3_Options.Size = new System.Drawing.Size(371, 19);
             this.Q3_Options.TabIndex = 9;
             this.Q3_Options.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Q3_Options_ItemCheck);
             // 
@@ -153,14 +158,16 @@
             // Q4_Options
             // 
             this.Q4_Options.CheckOnClick = true;
+            this.Q4_Options.ColumnWidth = 75;
             this.Q4_Options.FormattingEnabled = true;
             this.Q4_Options.Items.AddRange(new object[] {
             "Option 1",
             "Option 2",
             "Option 3"});
             this.Q4_Options.Location = new System.Drawing.Point(33, 351);
+            this.Q4_Options.MultiColumn = true;
             this.Q4_Options.Name = "Q4_Options";
-            this.Q4_Options.Size = new System.Drawing.Size(111, 49);
+            this.Q4_Options.Size = new System.Drawing.Size(371, 19);
             this.Q4_Options.TabIndex = 12;
             this.Q4_Options.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Q4_Options_ItemCheck);
             // 

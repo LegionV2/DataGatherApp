@@ -25,9 +25,18 @@ namespace DataGatheringApp
         {
             if (answered[0] && answered[1] && answered[2] && answered[3])
             {
-                FormProvider.SliderPage.Show();
-                FormProvider.StartPage.Hide();
-                textBox1.Text = null;
+                if(FormProvider.TestNo % 2 == 0)
+                {
+                    FormProvider.SliderPage1.Show();
+                    FormProvider.StartPage.Hide();
+                    textBox1.Text = null;
+                }else if (FormProvider.TestNo % 2 == 1)
+                {
+                    FormProvider.SliderPage2.Show();
+                    FormProvider.StartPage.Hide();
+                    textBox1.Text = null;
+                }
+
             }else
             {
                 textBox1.Text = "Please answer all questions";
