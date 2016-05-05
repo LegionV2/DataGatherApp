@@ -11,6 +11,7 @@ namespace DataGatheringApp
         private static Form1 _StartPage;
         private static Form2 _SliderPage1;
         private static Form3 _SliderPage2;
+        private static EndPage _EndPage;
 
         private static int _testNo = 1;
         private static int currentTest = 1;
@@ -56,6 +57,18 @@ namespace DataGatheringApp
                     _SliderPage2 = new Form3();
                 }
                 return _SliderPage2;
+            }
+        }
+
+        public static EndPage LastPage
+        {
+            get
+            {
+                if (_EndPage == null)
+                {
+                    _EndPage = new EndPage();
+                }
+                return _EndPage;
             }
         }
 

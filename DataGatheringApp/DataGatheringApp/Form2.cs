@@ -69,19 +69,18 @@ namespace DataGatheringApp
                 sheetLines[5] = String.Format("Question 6 answer was: {0}\n", FormProvider.StartPage.Q6);
                 sheetLines[6] = String.Format("Question 7 answer was: {0}\n", FormProvider.StartPage.Q7);
                 sheetLines[7] = String.Format("Question 8 answer was: {0}\n", FormProvider.StartPage.Q8);
-                sheetLines[8] = "Rate how you felt about the Companion Artificial Intelligence after the testing session";
+                sheetLines[8] = "How did you feel about having the Companion with you in the game?";
                 sheetLines[9] = String.Format("Pleasure rating: {0}\n", pleasure);
                 sheetLines[10] = String.Format("Arousal rating: {0}\n", arousal);
-                sheetLines[11] = "Rate how you felt about the Companion Artificial Intelligence's Logic after the testing session";
+                sheetLines[11] = "How did you feel about your companion's dicision making during the session?";
                 sheetLines[12] = String.Format("Pleasure rating: {0}\n", FormProvider.SliderPage2.Pleasure);
                 sheetLines[13] = String.Format("Arousal rating: {0}\n", FormProvider.SliderPage2.Arousal);
 
                 //Prints the strings into a text file
                 System.IO.File.WriteAllLines(@"C:\Users\Rasmus\Desktop\TestData" + FormProvider.TestNo + ".txt", sheetLines);
 
-                FormProvider.TestNo = FormProvider.TestNo + 1;
                 FormProvider.SliderPage1.Hide();
-                FormProvider.StartPage.Show();
+                FormProvider.LastPage.Show();
             }
     
         }

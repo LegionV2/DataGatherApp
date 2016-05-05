@@ -53,7 +53,7 @@
             // 
             // slider_arousal
             // 
-            this.slider_arousal.Location = new System.Drawing.Point(79, 45);
+            this.slider_arousal.Location = new System.Drawing.Point(80, 80);
             this.slider_arousal.Maximum = 100;
             this.slider_arousal.Name = "slider_arousal";
             this.slider_arousal.Size = new System.Drawing.Size(437, 45);
@@ -64,7 +64,7 @@
             // 
             // slider_plesure
             // 
-            this.slider_plesure.Location = new System.Drawing.Point(79, 139);
+            this.slider_plesure.Location = new System.Drawing.Point(80, 174);
             this.slider_plesure.Maximum = 100;
             this.slider_plesure.Name = "slider_plesure";
             this.slider_plesure.Size = new System.Drawing.Size(437, 45);
@@ -76,12 +76,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(76, 29);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(45, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(440, 13);
+            this.label2.Size = new System.Drawing.Size(522, 18);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Rate how you felt about the Companion Artificial Intelligence\'s Logic after the t" +
-    "esting session";
+            this.label2.Text = "How did you feel about your companion\'s dicision making during the session? ";
             // 
             // label1
             // 
@@ -95,7 +95,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::DataGatheringApp.Properties.Resources.AS_sleepy;
-            this.pictureBox6.Location = new System.Drawing.Point(11, 45);
+            this.pictureBox6.Location = new System.Drawing.Point(12, 80);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(67, 67);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -105,7 +105,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::DataGatheringApp.Properties.Resources.AS_wideawake;
-            this.pictureBox5.Location = new System.Drawing.Point(517, 45);
+            this.pictureBox5.Location = new System.Drawing.Point(518, 80);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(67, 67);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -115,7 +115,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::DataGatheringApp.Properties.Resources.AS_unhappy;
-            this.pictureBox4.Location = new System.Drawing.Point(11, 138);
+            this.pictureBox4.Location = new System.Drawing.Point(12, 173);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(67, 67);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -125,7 +125,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::DataGatheringApp.Properties.Resources.AS_happy;
-            this.pictureBox3.Location = new System.Drawing.Point(517, 139);
+            this.pictureBox3.Location = new System.Drawing.Point(518, 174);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(67, 67);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -135,7 +135,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(84, 66);
+            this.pictureBox2.Location = new System.Drawing.Point(85, 101);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(427, 34);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -145,7 +145,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(84, 160);
+            this.pictureBox1.Location = new System.Drawing.Point(85, 195);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(427, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

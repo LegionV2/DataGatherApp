@@ -162,9 +162,9 @@
             this.Q3Desc_Label.AutoSize = true;
             this.Q3Desc_Label.Location = new System.Drawing.Point(30, 194);
             this.Q3Desc_Label.Name = "Q3Desc_Label";
-            this.Q3Desc_Label.Size = new System.Drawing.Size(237, 13);
+            this.Q3Desc_Label.Size = new System.Drawing.Size(230, 13);
             this.Q3Desc_Label.TabIndex = 8;
-            this.Q3Desc_Label.Text = "The Companion rebeled against your commands.";
+            this.Q3Desc_Label.Text = "The Companion rebeled against my commands.";
             // 
             // Q3_Label
             // 
@@ -359,9 +359,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(30, 525);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(156, 13);
+            this.label8.Size = new System.Drawing.Size(270, 13);
             this.label8.TabIndex = 25;
-            this.label8.Text = "I was helped by my Companion.";
+            this.label8.Text = "The Companion always did what I expected it would do.";
             // 
             // label9
             // 
