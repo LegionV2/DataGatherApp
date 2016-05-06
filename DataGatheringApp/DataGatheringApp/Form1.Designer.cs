@@ -79,9 +79,10 @@
             // Q1Desc_Label
             // 
             this.Q1Desc_Label.AutoSize = true;
+            this.Q1Desc_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Q1Desc_Label.Location = new System.Drawing.Point(30, 70);
             this.Q1Desc_Label.Name = "Q1Desc_Label";
-            this.Q1Desc_Label.Size = new System.Drawing.Size(188, 13);
+            this.Q1Desc_Label.Size = new System.Drawing.Size(247, 17);
             this.Q1Desc_Label.TabIndex = 2;
             this.Q1Desc_Label.Text = "The companion did what I told it to do.";
             // 
@@ -124,9 +125,10 @@
             // Q2Desc_Label
             // 
             this.Q2Desc_Label.AutoSize = true;
+            this.Q2Desc_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Q2Desc_Label.Location = new System.Drawing.Point(30, 132);
             this.Q2Desc_Label.Name = "Q2Desc_Label";
-            this.Q2Desc_Label.Size = new System.Drawing.Size(304, 13);
+            this.Q2Desc_Label.Size = new System.Drawing.Size(405, 17);
             this.Q2Desc_Label.TabIndex = 5;
             this.Q2Desc_Label.Text = "The Companion acted logically according to its emotional state.";
             // 
@@ -160,9 +162,10 @@
             // Q3Desc_Label
             // 
             this.Q3Desc_Label.AutoSize = true;
+            this.Q3Desc_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Q3Desc_Label.Location = new System.Drawing.Point(30, 194);
             this.Q3Desc_Label.Name = "Q3Desc_Label";
-            this.Q3Desc_Label.Size = new System.Drawing.Size(230, 13);
+            this.Q3Desc_Label.Size = new System.Drawing.Size(308, 17);
             this.Q3Desc_Label.TabIndex = 8;
             this.Q3Desc_Label.Text = "The Companion rebeled against my commands.";
             // 
@@ -196,9 +199,10 @@
             // Q4Desc_Label
             // 
             this.Q4Desc_Label.AutoSize = true;
+            this.Q4Desc_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Q4Desc_Label.Location = new System.Drawing.Point(30, 458);
             this.Q4Desc_Label.Name = "Q4Desc_Label";
-            this.Q4Desc_Label.Size = new System.Drawing.Size(151, 13);
+            this.Q4Desc_Label.Size = new System.Drawing.Size(201, 17);
             this.Q4Desc_Label.TabIndex = 11;
             this.Q4Desc_Label.Text = "I could relie on my Companion.";
             // 
@@ -231,9 +235,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(30, 331);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(194, 13);
+            this.label2.Size = new System.Drawing.Size(257, 17);
             this.label2.TabIndex = 16;
             this.label2.Text = "The companion did not do as I told it to.";
             // 
@@ -285,9 +290,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(30, 397);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(156, 13);
+            this.label4.Size = new System.Drawing.Size(206, 17);
             this.label4.TabIndex = 19;
             this.label4.Text = "I was helped by my Companion.";
             // 
@@ -321,9 +327,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(30, 262);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(233, 13);
+            this.label6.Size = new System.Drawing.Size(310, 17);
             this.label6.TabIndex = 22;
             this.label6.Text = "My companion\'s actions never made any sense.";
             // 
@@ -357,9 +364,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(30, 525);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(270, 13);
+            this.label8.Size = new System.Drawing.Size(353, 17);
             this.label8.TabIndex = 25;
             this.label8.Text = "The Companion always did what I expected it would do.";
             // 
@@ -376,7 +384,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(544, 645);
+            this.ClientSize = new System.Drawing.Size(565, 645);
             this.Controls.Add(this.Q8_Options);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
